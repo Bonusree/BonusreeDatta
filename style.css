@@ -1,0 +1,137 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Bar */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ddd;
+  }
+  
+  /* Home Section */
+  #home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin-top: 4rem; /* To avoid overlap with fixed navbar */
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .intro p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-card h3 {
+    color: #333;
+  }
+  
+  .project-card p {
+    color: #555;
+  }
+  
+  .project-card .button {
+    background-color: #28a745;
+  }
+  
+  .project-card .button:hover {
+    background-color: #218838;
+  }
+  
+  /* Experience and Contact Sections */
+  #experience, #contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #experience h2, #contact h2 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  #contact a {
+    color: #007bff;
+  }
+  
+  #contact a:hover {
+    color: #0056b3;
+  }
+  
